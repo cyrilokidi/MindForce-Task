@@ -1,6 +1,12 @@
 .product-mapping-result-container {
 }
 
+.product-mapping-header {
+  height: 100px;
+  border-bottom: solid 1px #e5e5e5;
+  margin: 0 0 32px 0;
+}
+
 .product-mapping-result-legend {
   display: flex;
   justify-content: right;

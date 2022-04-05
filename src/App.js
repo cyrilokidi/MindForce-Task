@@ -3,6 +3,8 @@ import "./styles.css";
 export default function App() {
   return (
     <div className="product-mapping-result-container">
+      <div className="product-mapping-header"></div>
+
       <div className="product-mapping-result-legend">
         <div className="legend-item">
           <div className="legend-status active-legend-status" />
@@ -57,7 +59,7 @@ export default function App() {
 
           <div className="product-category-item">
             <p>問題1c</p>
-            <p>問題2</p>
+            <p>最長至100歲</p>
           </div>
 
           <div className="product-category-item">
