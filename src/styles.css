@@ -1,4 +1,46 @@
-.container {
+.product-mapping-result-container {
+}
+
+.product-mapping-result-legend {
+  display: flex;
+  justify-content: right;
+  margin: auto 18px;
+}
+
+.legend-item {
+  display: flex;
+}
+
+.legend-item p {
+  margin: auto 4px;
+}
+
+.legend-status {
+  width: 16px;
+  height: 16px;
+  margin: auto 4px;
+  border-radius: 1px;
+}
+
+.active-legend-status {
+  background-color: #00adc6;
+}
+
+.inactive-legend-status {
+  background-color: #e7ecf2;
+}
+
+.product-mapping-result-title p {
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--2-grayscale-1-dark-gray);
+}
+
+.product-result-container {
   display: grid;
   grid-template-columns: auto auto;
   height: 92px;
