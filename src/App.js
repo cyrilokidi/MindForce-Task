@@ -3,7 +3,11 @@ import "./styles.css";
 export default function App() {
   return (
     <div className="product-mapping-result-container">
-      <div className="product-mapping-header"></div>
+      <div className="product-mapping-header">
+        <div className="product-mapping-title">
+          <p>產品配對工具</p>
+        </div>
+      </div>
 
       <div className="product-mapping-result-legend">
         <div className="legend-item">
