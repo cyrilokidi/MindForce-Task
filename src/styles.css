@@ -29,8 +29,7 @@
 .product-category-item {
   margin: 0 5px;
   text-align: center;
-
-  border: 1px solid;
+  padding: 0 5px;
 }
 
 .product-category-answer-container {

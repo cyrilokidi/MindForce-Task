@@ -38,6 +38,16 @@ export default function App() {
             <b className="product-category-answer active-answer">E</b>
           </div>
         </div>
+
+        <div className="product-category-item">
+          <p>問題1c</p>
+          <p>問題2</p>
+        </div>
+
+        <div className="product-category-item">
+          <p>簡易分析</p>
+          <p>問題2</p>
+        </div>
       </div>
     </div>
   );
