@@ -18,6 +18,26 @@ export default function App() {
             <b className="product-category-answer active-answer">E</b>
           </div>
         </div>
+
+        <div className="product-category-item">
+          <p>問題1b</p>
+          <div className="product-category-answer-container">
+            <b className="product-category-answer active-answer">A</b>
+            <b className="product-category-answer default-answer">B</b>
+            <b className="product-category-answer inactive-answer">C</b>
+          </div>
+        </div>
+
+        <div className="product-category-item">
+          <p>問題1c</p>
+          <div className="product-category-answer-container">
+            <b className="product-category-answer active-answer">A</b>
+            <b className="product-category-answer default-answer">B</b>
+            <b className="product-category-answer inactive-answer">C</b>
+            <b className="product-category-answer active-answer">D</b>
+            <b className="product-category-answer active-answer">E</b>
+          </div>
+        </div>
       </div>
     </div>
   );
