@@ -37,6 +37,17 @@
   height: 24px;
 }
 
+.search-tool {
+  display: flex;
+  gap: 10px 8px;
+}
+
+.search-selection {
+}
+
+.search-field {
+}
+
 .result-legend {
   width: 100%;
   display: flex;

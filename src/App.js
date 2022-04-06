@@ -14,6 +14,34 @@ const HeaderContainer = () => {
   );
 };
 
+const SelectionOption = () => {
+  return (
+    <div className="search-selection">
+      <select>
+        <option>分紅壽險</option>
+      </select>
+    </div>
+  );
+};
+
+const SearchField = () => {
+  return (
+    <div className="search-field">
+      <input placeHolder="Search..." />
+    </div>
+  );
+};
+
+const SearchTool = () => {
+  return (
+    <div className="search-tool">
+      <SelectionOption />
+
+      <SearchField />
+    </div>
+  );
+};
+
 const ResultLegend = () => {
   return (
     <div className="result-legend">
@@ -105,6 +133,8 @@ export default function App() {
   return (
     <div className="product-mapping-container">
       <HeaderContainer />
+
+      <SearchTool />
 
       <ResultLegend />
 
