@@ -82,11 +82,16 @@
 .product-result-container {
   width: 100%;
   display: flex;
+  justify-content: flex-end;
   min-height: 100px;
   margin: 10px 0 16px;
   padding: 16px 42px 16px 32px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   background-color: #ffffff;
+}
+
+.product-name {
+  flex-grow: 1;
 }
 
 .product-category-container {
