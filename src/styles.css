@@ -8,6 +8,12 @@
   width: 100%;
   border-bottom: 1px solid #e5e5e5;
   margin: 0 0 8px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-title {
+  flex-grow: 3;
 }
 
 .header-title p {
@@ -21,6 +27,14 @@
 }
 
 .close-button-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.close-button-container button {
+  height: 24px;
 }
 
 .result-legend {

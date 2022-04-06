@@ -7,9 +7,9 @@ const HeaderContainer = () => {
         <p>產品配對工具</p>
       </div>
 
-      {/* <div className="close-button-container">
+      <div className="close-button-container">
         <button>close</button>
-      </div> */}
+      </div>
     </div>
   );
 };
